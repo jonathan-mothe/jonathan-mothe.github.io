@@ -68,37 +68,37 @@ body {
   text-align: left;
 }
 
+.particles-container {
+  overflow: hidden;
+  height: 100%;
+}
+
 #particles-js {
   height: 100%;
   width: 100%;
-  background: #000000;;
+  background: #000000;
 }
 
-canvas{ 
+.container {
+  position: relative;
+  height: 100%;
+}
+
+.header-box {
+  position: absolute;
+}
+
+h1 {
+  font-weight: normal;
+  color: #fff;
+  font-family: "Calibri-Light";
+  margin: 0.67em 0;
+  font-size: 75px;
+  font-size: 4.6875rem;
+}
+
+canvas { 
   display: block;
-}
-
-#caixadetexto {
-  width: 600px;
-  line-height: 90px;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  background: none;
-}
-
-#texto1 {
-  text-align: center !important;
-  font-size: 50px;
-  color: white;
-  font-family: "Fjalla One", sans-serif;
-}
-
-#texto1 {
-  text-align: center !important;
-  font-size: 30px;
-  color: white;
-  font-family: "Fjalla One", sans-serif;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -10143,8 +10143,8 @@ h3 {
   }
 }
 .masthead {
-  padding-top: 0rem;
-  padding-bottom: 0rem;
+  padding-top: calc(2rem + 74px);
+  padding-bottom: 2rem;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -10154,7 +10154,7 @@ h3 {
   font-size: 1.25rem;
 }
 .masthead .masthead-avatar {
-  width: 15rem;
+  width: 10rem;
   border-radius: 50%;
 }
 
