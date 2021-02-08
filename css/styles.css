@@ -2862,9 +2862,19 @@ fieldset:disabled a.btn {
   color: #000000;
   border-color: #000000;
 }
-.btn-outline-light:hover {
-  color: #212529;
-  background-color: #800080;
+.btn-outline-light-twitter:hover {
+  color: #ffffff;
+  background-color: #00aeed;
+  border-color: #f8f9fa;
+}
+.btn-outline-light-linkedin:hover {
+  color: #ffffff;
+  background-color: #2d73b9;
+  border-color: #f8f9fa;
+}
+.btn-outline-light-github:hover {
+  color: #ffffff;
+  background-color: #000000;
   border-color: #f8f9fa;
 }
 .btn-outline-light:focus, .btn-outline-light.focus {
