@@ -85,7 +85,7 @@ body {
 }
 
 .header-box {
-  position: absolute;
+  position: relative;
 }
 
 h1 {
