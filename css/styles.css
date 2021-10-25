@@ -119,6 +119,7 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #000;
 }
 
 abbr[title],
@@ -231,7 +232,7 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
-  width: 100px;
+  width: 400px;
 }
 
 svg {
@@ -10196,7 +10197,7 @@ h3 {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color: rgba(128, 0, 128, 0.9);
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
